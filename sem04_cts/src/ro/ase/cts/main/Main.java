@@ -1,5 +1,6 @@
 package ro.ase.cts.main;
 
+import ro.ase.cts.clase.Celebritate;
 import ro.ase.cts.clase.DepartamentFinanciar;
 import ro.ase.cts.clase.DepartamentFinanciarEager;
 
@@ -24,6 +25,16 @@ public class Main {
 
 		System.out.println(primulDepFinanciar.toString());
 		System.out.println(alDoileaDepFinanciar.toString());
+		
+		System.out.println();
+		
+		Celebritate celebritate1 = Celebritate.getInstance("Antonio Banderas", 60, "film", 200000);
+		Celebritate celebritate2 = Celebritate.getInstance("Justin Timberlake", 40, "muzica", 350000);
+		
+		System.out.println(celebritate1.toString());
+		System.out.println(celebritate2.toString());
+		
+
 	}
 
 }

@@ -3,7 +3,7 @@ package ro.ase.cts.simpleFactory;
 public class Program {
 
 	public static void main(String[] args) {
-;
+
 		try {
 //			FactoryPersonal factoryPersonal = new FactoryPersonal();
 			PersonalSpital personalSpital1 = null;

@@ -21,4 +21,8 @@ public class FlyweightFactory{
 		}
 		return flyweight;
 	}
+	
+	public int getSize() {
+		return clienti.size();
+	}
 }

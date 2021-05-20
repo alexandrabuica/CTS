@@ -12,6 +12,8 @@ public class Program {
 		flyweightFactory.getClient("0712345").printeazaRezervare(rezervare1);
 		flyweightFactory.getClient("0754321").printeazaRezervare(rezervare2);
 		flyweightFactory.getClient("0712345").printeazaRezervare(rezervare3);
+		
+		System.out.println(flyweightFactory.getSize());
 
 	}
 

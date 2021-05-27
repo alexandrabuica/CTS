@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import ro.ase.cts.clase.Grupa;
 
-public class testGrupa {
+public class TestGrupa {
  
 	@Test
 	public void testConstructorRight() {
